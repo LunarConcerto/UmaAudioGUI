@@ -18,8 +18,9 @@ __点击 `导出` 即可开始将对应文件导出到指定的导出目录.__
 
 ## 注意事项
 
-导出后的 `.awb` 文件可能无法直接用系统的音频播放器进行播放，如有需求，请移步 [VgmStream](https://github.com/vgmstream/vgmstream) 使用 __vgmstream-cli__ 对文件进行解码，
++ 导出后的 `.awb` 文件可能无法直接用系统的音频播放器进行播放，如有需求，请移步 [VgmStream](https://github.com/vgmstream/vgmstream) 使用 __vgmstream-cli__ 对文件进行解码，
 如果用过Foobar2000, 推荐使用Foobar2000的vgmstream插件，可直接播放.awb文件，亦可直接将.awb文件转换为其他格式。
++ 确保赛马娘的资源包能够在路径 `C://Users/Administrator/AppData/LocalLow/Cygames/umamusume` 中找到，目前还未提供资源路径修改的功能。
 
 ## 鸣谢
 
