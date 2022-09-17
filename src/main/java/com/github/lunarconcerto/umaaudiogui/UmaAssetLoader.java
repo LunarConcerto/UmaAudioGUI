@@ -13,7 +13,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 public class UmaAssetLoader {
 
-    public static final String UMA_ASSET_FOLDER = "C://Users/Administrator/AppData/LocalLow/Cygames/umamusume" ;
+    public static final String UMA_ASSET_FOLDER = "C://Users/%s/AppData/LocalLow/Cygames/umamusume".formatted(System.getProperty("user.name")) ;
     public static final String UMA_META_DB_PATH = UMA_ASSET_FOLDER + "/meta" ;
 
     private UmaAssetLoader() {}
